@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Proyek Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="toggle-container">
+        <input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+        <label for="dark-mode-toggle" class="toggle-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </label>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="portfolio.html" class="active">Portofolio</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio-section">
+            <div class="container">
+                <h2>Proyek Saya</h2>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Desain</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Proyek E-commerce">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Toko Online</h3>
+                                    <p>Website E-commerce</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Aplikasi Mobile">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Aplikasi Kesehatan</h3>
+                                    <p>Aplikasi Pelacak Kebugaran</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Desain UI/UX">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>UI/UX Dashboard</h3>
+                                    <p>Desain Antarmuka Admin</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Website Portofolio">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Website Portofolio</h3>
+                                    <p>Desain Minimalis</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Aplikasi Chat">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Aplikasi Chat</h3>
+                                    <p>Real-time Messaging</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <img src="f:\meme\contt].png" alt="Branding">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Branding Project</h3>
+                                    <p>Logo dan Identitas Visual</p>
+                                    <a href="#" class="btn">Lihat Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Saya. Hak Cipta Dilindungi.</p>
+            <div class="footer-links">
+                <a href="index.html">Beranda</a>
+                <a href="portfolio.html">Portofolio</a>
+                <a href="contact.html">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
