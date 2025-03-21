@@ -3,4 +3,10 @@
 
 # TECHNOLOGY USED
 ## HTML 
-- 63.7%
+ - 31.2%
+
+## CSS
+ - 63.7%
+
+## JavaScript
+ - 5.2%
